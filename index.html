@@ -1,25 +1,173 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner del Servidor L4D2</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servidor de Artistas - ¡Únete a nuestra comunidad!</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <style>
         body {
-            text-align: center;
-            background-color: #1e1e1e;
-            color: white;
-            font-family: Arial, sans-serif;
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-top: 20px;
+
+        header {
+            background-color: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 50px;
+        }
+
+        .main-content h2 {
+            font-size: 2.5em;
+            color: #1e1e2f;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 1.2em;
+            color: #555;
+            margin: 0 0 30px;
+            max-width: 700px;
+            text-align: center;
+        }
+
+        .cta-button {
+            background-color: #ff7f50;
+            color: white;
+            font-size: 1.3em;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e86c3d;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            max-width: 1200px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .feature-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card h3 {
+            color: #1e1e2f;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            font-size: 1.1em;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .footer a {
+            color: #ff7f50;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-card {
+                width: 90%;
+            }
         }
     </style>
 </head>
+
 <body>
-    <img src="https://i.imgur.com/eiHgbTm.png" alt="Banner del Servidor">
+
+    <header>
+        <h1>¡Bienvenido a nuestra Comunidad de Artistas!</h1>
+        <p>Un espacio donde los creativos se reúnen para compartir, aprender y crecer juntos.</p>
+        <a href="https://discord.gg/mB5bjAhGKs" class="cta-button">Únete al servidor de Discord</a>
+    </header>
+
+    <div class="main-content">
+        <h2>¿Por qué unirte?</h2>
+        <p>En nuestro servidor de Discord encontrarás un lugar único para compartir tus proyectos artísticos, interactuar con otros artistas, recibir feedback y mucho más. ¡Aquí es donde la magia de la creatividad se encuentra!</p>
+        <a href="https://discord.gg/mB5bjAhGKs" class="cta-button">¡Únete ahora!</a>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>🌟 Comunidad Activa</h3>
+            <p>Interactúa con otros artistas de diversas disciplinas. ¡Haz amigos y colaboradores!</p>
+        </div>
+        <div class="feature-card">
+            <h3>🎨 Espacios de Creación</h3>
+            <p>Disfruta de canales para compartir tus obras y recibir críticas constructivas.</p>
+        </div>
+        <div class="feature-card">
+            <h3>💡 Tutoriales y Recursos</h3>
+            <p>Accede a material educativo exclusivo para mejorar tus habilidades artísticas.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; 2025 - Comunidad de Artistas</p>
+        <p>Desarrollado con ❤️ por <a href="https://discord.gg/mB5bjAhGKs">Nuestro Servidor de Discord</a></p>
+    </div>
+
 </body>
+
 </html>
